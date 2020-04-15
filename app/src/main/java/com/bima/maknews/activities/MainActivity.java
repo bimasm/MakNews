@@ -9,13 +9,18 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.bima.maknews.R;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.google.android.material.card.MaterialCardView;
 
 import java.util.Calendar;
 import java.util.Date;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-
+    private AdView mAdView;
     MaterialCardView cvHead, cvSports, cvTechno, cvBusiness, cvHealth, cvEntertaiment;
     TextView tvToday;
     String hariIni;
@@ -24,6 +29,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+            }
+        });
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
         cvHead = findViewById(R.id.cardHeadLine);
         cvSports = findViewById(R.id.cardSports);
@@ -59,6 +72,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
         getToday();
+        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+            @Override
+            public void onInitializationComplete(InitializationStatus initializationStatus) {
+            }
+        });
 
     }
 
