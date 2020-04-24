@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.RegistrasiActivity"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="#fff"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginBottom="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MakNews.com"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:textColor="#333"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        >
+        <EditText
+            android:id="@+id/edtNama"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edt_text"
+            android:hint="Nama Lengkap"
+            android:paddingLeft="15dp"
+            android:textColor="#333"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        >
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edt_text"
+            android:hint="Email"
+            android:paddingLeft="15dp"
+            android:textColor="#333"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        >
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edt_text"
+            android:hint="Kata Sandi"
+            android:paddingLeft="15dp"
+            android:textColor="#333"
+            android:inputType="textPassword"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        >
+        <EditText
+            android:id="@+id/edtKonfirPassword"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edt_text"
+            android:hint="Konfirmasi Kata Sandi"
+            android:paddingLeft="15dp"
+            android:textColor="#333"
+            android:inputType="textPassword"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvErrorSandi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kata Sandi Tidak Sama"
+        android:textColor="#E45353"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        />
+    <TextView
+    android:id="@+id/kurangdari6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Kata Sandi terlalu pendek"
+    android:textColor="#E45353"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="5dp"
+    />
+    <TextView
+        android:id="@+id/emailsalah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email salah"
+        android:textColor="#E45353"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        />
+    
+
+    <RelativeLayout
+
+        android:id="@+id/BtnDaftar"
+        android:onClick="btnDaftar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_border"
+        tools:ignore="OnClick">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#006dbf"
+            android:layout_centerInParent="true"
+            android:text="Daftar"
+            android:textSize="18sp"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>

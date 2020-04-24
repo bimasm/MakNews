@@ -1,7 +1,7 @@
-#Wed Apr 15 13:06:01 ICT 2020
-base.0=D\:\\develop\\MakNews\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+#Sat Apr 25 00:29:16 ICT 2020
+base.0=D\:\\MakNews\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=D\:\\develop\\MakNews\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+base.1=D\:\\MakNews\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

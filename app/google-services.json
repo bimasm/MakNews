@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "700655641169",
+    "firebase_url": "https://tubes-86ada.firebaseio.com",
+    "project_id": "tubes-86ada",
+    "storage_bucket": "tubes-86ada.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700655641169:android:364f3444903e76918f4e70",
+        "android_client_info": {
+          "package_name": "com.bima.maknews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700655641169-9rb4knj5t4cvi49e9a7rlk3uv07qsd8s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bima.maknews",
+            "certificate_hash": "e528b9d648769d57fd20642b25791823bfcec684"
+          }
+        },
+        {
+          "client_id": "700655641169-6h464hkhl57latbpn69j3jgddf0997p4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYdUYlonN5fpSxEkmFCwYQMKpMoL0z2so"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700655641169-6h464hkhl57latbpn69j3jgddf0997p4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
