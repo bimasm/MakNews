@@ -33,7 +33,7 @@ public class RegistrasiActivity extends AppCompatActivity {
     User user;
     DatabaseReference reff;
     long valueid = 0;
-
+//cek
     private ProgressDialog loading;
     private FirebaseAuth mAuth;
     EditText mEmail,mPassword,mPasswordcon,mNama;

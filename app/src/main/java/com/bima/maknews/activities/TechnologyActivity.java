@@ -33,7 +33,7 @@ public class TechnologyActivity extends AppCompatActivity implements NewsAdapter
     NewsAdapter newsAdapter;
     List<ModelNews> modelNews = new ArrayList<>();
     ProgressDialog progressDialog;
-
+//cek
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

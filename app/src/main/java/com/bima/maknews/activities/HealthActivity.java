@@ -33,7 +33,7 @@ public class HealthActivity extends AppCompatActivity implements NewsAdapter.onS
     NewsAdapter newsAdapter;
     List<ModelNews> modelNews = new ArrayList<>();
     ProgressDialog progressDialog;
-
+//cek
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

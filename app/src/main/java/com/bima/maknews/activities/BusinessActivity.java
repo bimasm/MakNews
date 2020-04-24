@@ -34,7 +34,7 @@ public class BusinessActivity extends AppCompatActivity implements NewsAdapter.o
     NewsAdapter newsAdapter;
     List<ModelNews> modelNews = new ArrayList<>();
     ProgressDialog progressDialog;
-
+//cek
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

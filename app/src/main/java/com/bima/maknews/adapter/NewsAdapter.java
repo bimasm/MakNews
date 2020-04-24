@@ -23,7 +23,7 @@ import java.util.List;
 
 
 public class NewsAdapter extends RecyclerView.Adapter<NewsViewHolder> {
-
+//cek
     public List<ModelNews> androidList;
     private Context mContext;
     private NewsAdapter.onSelectData onSelectData;
