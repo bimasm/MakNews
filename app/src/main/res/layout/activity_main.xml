@@ -4,71 +4,111 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <FrameLayout
 
-        android:id="@+id/toolbarMain"
+
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="150sp"
-        android:background="@drawable/bg_home_wave"
-        android:fitsSystemWindows="true">
+        android:layout_height="match_parent">
 
-        <RelativeLayout
-            android:id="@+id/rlAppName"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="start|center">
+            android:orientation="vertical">
 
-            <TextView
-                android:layout_marginTop="0dp"
-                android:layout_width="wrap_content"
-                android:layout_height="100sp"
-                android:layout_alignParentStart="true"
-                android:layout_marginStart="30dp"
-                android:text="@string/title_header_main"
-                android:textColor="@android:color/white"
-                android:textSize="20sp"
-                android:textStyle="bold"/>
 
-        </RelativeLayout>
 
-        <com.google.android.material.card.MaterialCardView
-            android:id="@+id/cvDate"
-            android:layout_marginTop="-33dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end|center"
-            android:layout_marginEnd="-20dp"
-            app:cardCornerRadius="10dp"
-            app:cardElevation="5dp">
+            <FrameLayout
 
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:id="@+id/toolbarMain"
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:background="@drawable/bg_home_wave"
+                android:fitsSystemWindows="true">
 
-                <ImageView
-                    android:id="@+id/imgDate"
+                <RelativeLayout
+                    android:id="@+id/rlAppName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="5dp"
-                    android:src="@drawable/ic_date" />
+                    android:layout_gravity="start|center">
 
-                <TextView
-                    android:id="@+id/tvDate"
+                    <TextView
+                        android:layout_marginTop="0dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="100sp"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="30dp"
+                        android:text="@string/title_header_main"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+                </RelativeLayout>
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cvDate"
+                    android:layout_marginTop="-33dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_centerInParent="true"
-                    android:layout_marginStart="5dp"
-                    android:layout_marginEnd="25dp"
-                    android:layout_toEndOf="@id/imgDate"
-                    android:text="Minggu, 20 Oktober 2020"
-                    android:textColor="@color/colorPrimary"
-                    android:textSize="12sp" />
+                    android:layout_gravity="end|center"
+                    android:layout_marginEnd="-20dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp">
 
-            </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
 
-        </com.google.android.material.card.MaterialCardView>
+                        <ImageView
+                            android:id="@+id/imgDate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:src="@drawable/ic_date" />
 
-    </FrameLayout>
+                        <TextView
+                            android:id="@+id/tvDate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="25dp"
+                            android:layout_toEndOf="@id/imgDate"
+                            android:text="Minggu, 20 Oktober 2020"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12sp" />
+
+                    </RelativeLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </FrameLayout>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rvNews"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scrollbars="horizontal" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+
+            <include layout="@layout/item_main_grid" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
     <com.google.android.gms.ads.AdView
         xmlns:ads="http://schemas.android.com/apk/res-auto"
         android:id="@+id/adView"
@@ -79,11 +119,5 @@
         ads:adSize="BANNER"
         ads:adUnitId="ca-app-pub-2590700146308025/1411949863">
     </com.google.android.gms.ads.AdView>
-
-
-
-    <include layout="@layout/item_main_grid" />
-
-
 
 </RelativeLayout>
