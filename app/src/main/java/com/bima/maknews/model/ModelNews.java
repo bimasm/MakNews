@@ -7,7 +7,7 @@ public class ModelNews {
     private String publishedAt;
     private String url;
     private String urlToImage;
-
+//cek
     public void setTitle(String title) {
         this.title = title;
     }

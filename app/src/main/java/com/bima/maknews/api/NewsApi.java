@@ -1,5 +1,5 @@
 package com.bima.maknews.api;
-
+//cek
 public class NewsApi {
     public static String GET_TOP_HEADLINES = "https://newsapi.org/v2/top-headlines?country=id&apiKey=82e7f2eddff349c496f73de11025ee3c";
     public static String GET_CATEGORY_SPORTS = "https://newsapi.org/v2/top-headlines?country=id&category=sports&apiKey=82e7f2eddff349c496f73de11025ee3c";

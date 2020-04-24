@@ -16,7 +16,7 @@ public class NewsViewHolder extends RecyclerView.ViewHolder {
     public TextView publishedAt;
     public MaterialCardView cvNews;
     public View view;
-
+//cek
     public NewsViewHolder(View view) {
         super(view);
 
