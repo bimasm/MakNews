@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">700655641169-6h464hkhl57latbpn69j3jgddf0997p4.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://tubes-86ada.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">700655641169</string>
+    <string name="google_api_key" translatable="false">AIzaSyBYdUYlonN5fpSxEkmFCwYQMKpMoL0z2so</string>
+    <string name="google_app_id" translatable="false">1:700655641169:android:364f3444903e76918f4e70</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBYdUYlonN5fpSxEkmFCwYQMKpMoL0z2so</string>
+    <string name="google_storage_bucket" translatable="false">tubes-86ada.appspot.com</string>
+    <string name="project_id" translatable="false">tubes-86ada</string>
+</resources>

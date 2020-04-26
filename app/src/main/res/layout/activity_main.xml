@@ -21,7 +21,7 @@
 
                 android:id="@+id/toolbarMain"
                 android:layout_width="match_parent"
-                android:layout_height="150sp"
+                android:layout_height="90sp"
                 android:background="@drawable/bg_home_wave"
                 android:fitsSystemWindows="true">
 
@@ -32,7 +32,7 @@
                     android:layout_gravity="start|center">
 
                     <TextView
-                        android:layout_marginTop="0dp"
+                        android:layout_marginTop="20dp"
                         android:layout_width="wrap_content"
                         android:layout_height="100sp"
                         android:layout_alignParentStart="true"
@@ -47,7 +47,7 @@
 
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/cvDate"
-                    android:layout_marginTop="-33dp"
+                    android:layout_marginTop="-10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="end|center"
@@ -83,23 +83,7 @@
                 </com.google.android.material.card.MaterialCardView>
 
             </FrameLayout>
-            <HorizontalScrollView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                >
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal" >
-
-                    <androidx.recyclerview.widget.RecyclerView
-                        android:id="@+id/rvNews"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:scrollbars="horizontal" />
-                </LinearLayout>
-            </HorizontalScrollView>
 
 
 
