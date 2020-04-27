@@ -5,6 +5,7 @@
     >
 
     <LinearLayout
+        android:background="#EEF9FF"
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,7 +25,7 @@
                 android:layout_margin="10dp"
                 app:cardCornerRadius="10.0dip"
                 app:cardElevation="5.0dip"
-                app:strokeColor="@android:color/holo_blue_dark"
+                app:strokeColor="#00A2FF"
                 app:strokeWidth="2.0dip">
 
                 <LinearLayout
@@ -38,14 +39,14 @@
                         android:layout_height="64dp"
                         android:padding="10dp"
                         android:src="@drawable/news"
-                        android:tint="@android:color/holo_blue_dark" />
+                        android:tint="#0077FF" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:text="Berita Terbaru"
-                        android:textColor="@android:color/holo_blue_dark"
+                        android:textColor="#0077FF"
                         android:textStyle="bold" />
 
                     <LinearLayout
@@ -71,7 +72,7 @@
                 android:layout_margin="10dp"
                 app:cardCornerRadius="10.0dip"
                 app:cardElevation="5.0dip"
-                app:strokeColor="@android:color/holo_red_dark"
+                app:strokeColor="#00A2FF"
                 app:strokeWidth="2.0dip">
 
                 <LinearLayout
@@ -85,14 +86,14 @@
                         android:layout_height="64dp"
                         android:padding="10dp"
                         android:src="@drawable/olahraga"
-                        android:tint="@android:color/holo_red_dark" />
+                        android:tint="#FF8000" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:text="Olahraga"
-                        android:textColor="@android:color/holo_red_dark"
+                        android:textColor="#FF8000"
                         android:textStyle="bold" />
 
                     <LinearLayout
@@ -125,7 +126,7 @@
                 android:layout_margin="10dp"
                 app:cardCornerRadius="10.0dip"
                 app:cardElevation="5.0dip"
-                app:strokeColor="@android:color/holo_purple"
+                app:strokeColor="#0084D0"
                 app:strokeWidth="2.0dip">
 
                 <LinearLayout
@@ -139,14 +140,14 @@
                         android:layout_height="64dp"
                         android:padding="10dp"
                         android:src="@drawable/tech"
-                        android:tint="@android:color/holo_purple" />
+                        android:tint="#009999" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:text="Teknologi"
-                        android:textColor="@android:color/holo_purple"
+                        android:textColor="#009999"
                         android:textStyle="bold" />
 
                     <LinearLayout
@@ -170,7 +171,7 @@
                 android:layout_margin="10dp"
                 app:cardCornerRadius="10.0dip"
                 app:cardElevation="5.0dip"
-                app:strokeColor="@android:color/black"
+                app:strokeColor="#0084D0"
                 app:strokeWidth="2.0dip">
 
                 <LinearLayout
@@ -184,14 +185,14 @@
                         android:layout_height="64dp"
                         android:padding="10dp"
                         android:src="@drawable/bisnis"
-                        android:tint="@android:color/black" />
+                        android:tint="#E54E20" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:text="Bisnis"
-                        android:textColor="@android:color/black"
+                        android:textColor="#E54E20"
                         android:textStyle="bold" />
 
                     <LinearLayout
@@ -217,13 +218,14 @@
             android:orientation="horizontal">
 
             <com.google.android.material.card.MaterialCardView
+
                 android:id="@+id/cardHealth"
                 android:layout_width="150.0dip"
                 android:layout_height="150.0dip"
                 android:layout_margin="10dp"
                 app:cardCornerRadius="10.0dip"
                 app:cardElevation="5.0dip"
-                app:strokeColor="@android:color/holo_green_dark"
+                app:strokeColor="#0068A4"
                 app:strokeWidth="2.0dip">
 
                 <LinearLayout
@@ -237,14 +239,14 @@
                         android:layout_height="64dp"
                         android:padding="10dp"
                         android:src="@drawable/kesehatan"
-                        android:tint="@android:color/holo_green_dark" />
+                        android:tint="#FF39A3" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:text="Kesehatan"
-                        android:textColor="@android:color/holo_green_dark"
+                        android:textColor="#FF39A3"
                         android:textStyle="bold" />
 
                     <LinearLayout
@@ -268,7 +270,7 @@
                 android:layout_margin="10dp"
                 app:cardCornerRadius="10.0dip"
                 app:cardElevation="5.0dip"
-                app:strokeColor="@color/colorPrimary"
+                app:strokeColor="#0068A4"
                 app:strokeWidth="2.0dip">
 
                 <LinearLayout
@@ -282,14 +284,14 @@
                         android:layout_height="64dp"
                         android:padding="10dp"
                         android:src="@drawable/hiburan"
-                        android:tint="@color/colorPrimary" />
+                        android:tint="#BB43FF" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:text="Hiburan"
-                        android:textColor="@color/colorPrimary"
+                        android:textColor="#BB43FF"
                         android:textStyle="bold" />
 
                     <LinearLayout
